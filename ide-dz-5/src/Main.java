@@ -9,7 +9,6 @@ public class Main {
         int d = 15;
         //2. Сумує їх попарно.
         calculatingSum(a, b, c, d);
-
     }
     public static int[] calculatingSum(int a, int b, int c, int d){
         int sum1 = a + b;
@@ -33,7 +32,6 @@ public class Main {
         //6. Виводить результат порівняння (true якщо перша сума більша).
         comparingRes(sums);
     }
-
     public static int[] comparingRes(int[] sums){
         int sum1 = sums[0];
         int sum2 = sums[1];
@@ -56,7 +54,6 @@ public class Main {
         int res2 = result[1];
 
         String evenOrOdd = 0 == res1%2 || 0 == res2%2 ? "true" : "false";
-        System.out.println("at list one sum is even: " + evenOrOdd);
+        System.out.println("at least one sum is even: " + evenOrOdd);
     }
-
 }
