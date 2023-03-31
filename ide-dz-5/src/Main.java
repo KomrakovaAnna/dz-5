@@ -38,7 +38,7 @@ public class Main {
 
         int res1 = ++sum1;
         int res2 = sum2 - 2;
-        System.out.println(sum1 + " +1 is " + res1 + " ," + sum2 + "-2 is " + res2);
+        System.out.println(sums[0] + " +1 is " + res1 + " ," + sum2 + "-2 is " + res2);
 
         boolean ResultsCompare = res1>res2;
         System.out.println("Is first sum is bigger: " + ResultsCompare);
